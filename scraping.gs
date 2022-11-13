@@ -1,20 +1,3 @@
-function myFunction() {
-  for(let i = 0; i < 5; i++){
-    console.log("TechnoAgent" + i)
-
-  }
-  console.log("Finish" + i)
-}
-
-function myFunction2(){
-
-  let array = ["Techno", "Agent", "Engineer"]
-  for(bangou in array){
-    console.log(array[bangou] + bangou)
-
-  }
-}
-
 function request(url){
   let reponse = UrlFetchApp.fetch(url)
   let content = reponse.getContentText()
